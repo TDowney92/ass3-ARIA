@@ -73,13 +73,13 @@ ul.topnav li.icon {
 }
 
 #feat {
-	border: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 #feat li{
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.2rem;
-	padding: 7px;
+	padding-bottom: 10px;
 }
 
 #bot p {
@@ -146,6 +146,16 @@ ul.topnav li.icon {
 #captab table {
     border-collapse: collapse;
     width: 100%;
+}
+
+#cfeat {
+	border-bottom: 2px solid black;
+}
+
+#cfeat li{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2rem;
+	padding: 7px;
 }
 
 #captab th, td {
