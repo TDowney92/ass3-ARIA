@@ -1,0 +1,156 @@
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+
+  }
+}
+
+html {
+    padding: 25px;
+}
+
+
+/* css nav */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 23px;
+		font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+ul.topnav li a:hover {
+    background-color: #555;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+
+
+/* end of nav css */
+
+/* bottle css */
+
+#bot h1, h2, h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#feat {
+	border: 2px solid black;
+}
+
+#feat li{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2rem;
+	padding: 7px;
+}
+
+#bot p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-kerning: auto;
+	padding: 20px;
+}
+
+#bot img {
+	float: left;
+}
+
+
+#bot {
+	float: right;
+}
+
+#bottab{
+	float: right;
+}
+
+#bottab table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bottab th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+#bottab tr:nth-child(even){background-color: #f2f2f2}
+/* end of bottle css */
+
+
+/* bottle cap css */
+
+#cap h1, h2, h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#cap p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-kerning: auto;
+	padding: 20px;
+}
+
+#cap img {
+	float: right;
+}
+
+#cap {
+	float: left;
+}
+
+#captab{
+	float: left;
+}
+
+#captab table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#captab th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+#captab tr:nth-child(even){background-color: #f2f2f2}
